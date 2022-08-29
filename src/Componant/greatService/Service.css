@@ -1,0 +1,39 @@
+.service-header{
+    text-align: center;
+    padding: 50px;
+}
+.serviceCard-area{
+    margin: 0 50px;
+}
+.service-area{
+width: 550px;
+height: 250px;
+margin:  25px 25px;
+border-radius: 5px;
+background: #F5F5F5;
+}
+.service-card{
+    display: flex;
+    
+}
+
+.service .left img{
+width: 20%;
+display: flex;
+padding-top: 80px;
+
+}
+.service .right {
+   width: 80%;
+   margin-top: -150px;
+   padding-left: 130px;
+   font-size: 20px;
+
+}
+.service-btn {
+   
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+   
+}

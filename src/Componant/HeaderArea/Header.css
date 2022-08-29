@@ -1,0 +1,83 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    z-index: 10;
+    font-size: 20px;
+    box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.2);
+-webkit-box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.2);
+  }
+  .header .logo{
+    text-decoration: none;
+    
+  }
+  .header-bg{
+    background-color: rgba(0,0,0,0.85);
+  }
+  .nav-menu {
+    display: flex;
+  }
+  .nav-menu li {
+    padding: 0 1rem;
+   
+  }
+  .F-nav{
+    display: flex;
+    margin-right: 15rem;
+  }
+  .active{
+    text-decoration: underline;
+  }
+  .nav-menu li a {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  
+  .hamburger{
+    display: none;
+    background: #000;
+  }
+  
+  @media screen and (max-width:1040px) {
+    .nav-menu{   
+      
+      
+      
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: -140px;
+      left: -100%;
+      z-index: -1;
+      transition: 0.3s;
+  
+  
+    }
+    .F-nav{
+        display: block;
+        margin: 0;
+      }
+    .nav-menu.active{
+      left: 0;
+    }
+    .nav-menu li{
+      padding: 1rem 0;
+    }
+    .nav-menu li a{
+      font-size: 1.5rem;
+    }
+    .hamburger{
+      display: initial;
+    }
+  }
+  
+  

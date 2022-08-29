@@ -1,0 +1,79 @@
+.about{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.left .about-btn button{
+margin-right:75px;
+margin-top: 50px;
+}
+h1,p{color: #000;}
+.about .left{
+    margin: auto;
+    padding: 1rem;
+    max-width: 550px;
+}
+.about .left h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.about .left p{
+    margin: 1.2rem 0;
+}
+.about .right{
+    max-width: 600px;
+}
+.right .img-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+
+}
+.right .img{
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    display: block;
+}
+.right .top{
+    grid-column: 1/ span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index:6 ;
+
+}
+.right .bottom{
+    grid-column: 4 / -1;
+    grid-row: 1;
+    z-index:5 ;
+
+}
+
+.right .ex-btn {
+    border-radius: 50%;
+    padding: 40px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF00C4;
+    background: #000000;
+    color: aliceblue;
+    opacity: 0.5;
+    margin-top: -92px;
+    margin-left: 500px;
+}
+
+.about-Clogo{
+    display: flex;
+    justify-content: space-between;
+}
+.abt-l{ 
+    display: flex;
+    padding: 5px;
+
+}

@@ -1,0 +1,14 @@
+.brand-logo{
+align-items: center;
+padding-left:100px ;
+justify-content: space-between;
+background: none;
+}
+.brand-logo img{
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    padding: 40px;
+}

@@ -1,0 +1,39 @@
+.feedback{
+    text-align: center;
+}
+.feed-content{
+    width: 70%;
+    height: 200;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+}
+.google-map{
+    width: 100%;
+    height: 60vh;
+}
+.goggleMap{
+    position: relative;
+}
+.goggleMap-content {
+    width: 450px;
+    border-radius: 15px;
+    font-size: 17px;
+    position: absolute;
+    margin-top: -420px;
+    margin-left: 450px;
+}
+
+.card-bodys{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.fmap-area{
+    display: flex;
+    padding: 3px;
+}
+.fmap-area img{
+    width: 30px;
+    height: 30px;
+}

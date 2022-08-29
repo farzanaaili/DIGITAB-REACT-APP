@@ -1,0 +1,39 @@
+.footer-area{
+    display: flex;
+    justify-content: space-between;
+    background: #3323A8;
+    color: #fff;
+    width: 100%;
+    height: 200px;
+    padding: 80px;
+}
+.footer-area .part1{
+
+}
+.footer-area a{
+    color: #fff;
+}
+.footer-area a:hover{
+    color: rgba(241, 15, 154, 0.833);
+    text-decoration: underline;
+}
+.part3 h4{margin-bottom: 15px;}
+.part3 input{
+    height: 20px;
+    position: relative;
+    padding: 10px;
+    
+}
+.f-btn{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    
+}
+.f-btn:hover{
+    background: rgba(241, 15, 154, 0.833);
+    color: #fff;
+}
